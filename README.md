@@ -18,7 +18,7 @@ Rock Paper Scissors game in vanilla JS
 
 ### Links
 
-https://simonemarketti.github.io/password-tree
+https://simonemarketti.github.io/rock-paper-scissors
 
 ### Notes
 

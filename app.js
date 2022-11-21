@@ -15,7 +15,7 @@ possibleChoices.forEach((possibleChoice) => possibleChoice.addEventListener("cli
     computerChoiceDisplay.innerHTML = "";
     resultDisplay.innerHTML = "";
     userChoice = e.target.id;
-    userChoiceDisplay.innerHTML = `<img src="./assets/${userChoice}.gif"  alt=""/>`;
+    userChoiceDisplay.innerHTML = `<img src="./assets/${userChoice}.png"  alt=""/>`;
     generateComputerChoice();
     getResult();
 }));
@@ -34,7 +34,7 @@ function generateComputerChoice() {
         computerChoice = "paper";
     }
     setTimeout(() => {
-        computerChoiceDisplay.innerHTML = `<img src="./assets/${computerChoice}.gif" alt="" />`;
+        computerChoiceDisplay.innerHTML = `<img src="./assets/${computerChoice}.png" alt="" />`;
     }, 1200);
 }
 

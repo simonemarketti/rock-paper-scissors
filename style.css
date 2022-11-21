@@ -1,6 +1,7 @@
 body {
+    color: #F6F6F6;
     text-align: center;
-    background-color: #95db30;
+    background-color: #1A2849;
 }
 
 .btn {
@@ -9,27 +10,27 @@ body {
     margin: 0 1em;
     border-radius: 50%;
     background: white;
+    border: none;
 }
 
 .btn--rock {
-    background-image: url("./assets/rock.gif");
+    background-image: url("./assets/rock.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 10%;
-    background-size: 80% 90%;
+
 }
 
 .btn--paper {
-    background-image: url("./assets/paper.gif");
+    background-image: url("./assets/paper.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 55% 50%;
-    background-size: 70% 80%;
+
 }
 
 .btn--scissors {
-    background-image: url("./assets/scissors.gif");
+    background-image: url("./assets/scissors.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 40% 60%;
-    background-size: 70% 70%;
 }
 
 .choices {
@@ -44,10 +45,13 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 30vw;
     margin: 1em;
+    min-width: 10vw;
 }
 
+img {
+    max-width: 120px;
+    }
 footer {
     margin-top: 3em;
 }
